@@ -102,12 +102,3 @@ while True:
                 result[day] = {"Amount": Earning, "Count": count}
         for day2, Value in result.items():
             print("{} \t\t\t{}\t\t\t {}".format(day2, Value["Count"], Value["Amount"]))
-
-
-
-
-
-
-
-
-
